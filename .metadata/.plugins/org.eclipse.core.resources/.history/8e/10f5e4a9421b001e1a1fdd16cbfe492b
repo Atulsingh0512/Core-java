@@ -1,0 +1,33 @@
+package objectandclasses;
+
+public class Shepherd{
+	   //This example explains how to access instance
+	   //variables and methods of a class:
+	
+	   int shepAge;//instance variable
+	   public Shepherd(String name){
+	      // This constructor has one parameter, name.
+	      System.out.println("Passed Name is :" + name ); 
+	   }
+	   public void setAge( int age ){
+	       shepAge= age;
+	   }
+
+	   public int getAge( ){
+	       System.out.println("Shepherd's age is :" + shepAge); 
+	       return shepAge;
+	   }
+	   public static void main(String []args){
+	      /* Object creation */
+	      Shepherd myShepherd = new Shepherd( "tommy" );
+
+	      /* Call class method to set Shepherd's age */
+	      myShepherd.setAge( 2 );
+
+	      /* Call another class method to get Shepherd's age */
+	      myShepherd.getAge( );
+
+	      /* You can access instance variable as follows as well */
+	      System.out.println("Variable Value :" + myShepherd.shepAge ); 
+	   }
+	}

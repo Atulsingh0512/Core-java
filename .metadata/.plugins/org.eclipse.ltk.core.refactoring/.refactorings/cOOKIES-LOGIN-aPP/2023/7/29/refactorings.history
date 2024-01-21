@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;cOOKIES-LOGIN-aPP/src/main/webapp/INDEX.HTML&apos; to &apos;index.html&apos;" description="Rename resource &apos;INDEX.HTML&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/INDEX.HTML" name="index.html" stamp="1689656362610" updateReferences="true"/>
+</session>

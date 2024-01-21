@@ -1,0 +1,24 @@
+package thiskeyword;
+
+
+//this is used to call current class constructor
+class A{
+	A()// default constructor 
+	{
+		System.out.println("Hello a");
+	}
+	A(int x)//parametrized constructor
+	{
+		this();
+		System.out.println(x);
+	}
+}
+public class TestThis3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		A call=new A(5);
+
+	}
+
+}

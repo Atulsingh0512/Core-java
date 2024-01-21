@@ -1,0 +1,13 @@
+package thiskeyword;
+
+
+//this is used to call current class constructor
+
+public class TestThis3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

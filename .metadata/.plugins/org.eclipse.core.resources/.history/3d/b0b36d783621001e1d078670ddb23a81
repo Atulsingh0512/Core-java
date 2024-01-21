@@ -1,0 +1,22 @@
+package com.coforge.servlet;
+
+import java.security.Provider.Service;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class MyServlet1extends HttpServlet {
+	@Override
+	public void init() throws ServletExcepetion{
+		System.out.println("init called");
+	}
+	
+	@Override
+	protected void service(HttpServletRequest req,HttpServletResponse resp) throws ServletException,
+	System.out.println("service called");
+	@Override
+	public void destroy() {
+		System.out.println("destroy called");
+	}
+
+}

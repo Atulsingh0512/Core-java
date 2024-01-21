@@ -1,0 +1,5 @@
+package com.coforge.servlet;
+
+public class MyServlet1 {
+
+}

@@ -1,0 +1,27 @@
+package thiskeyword;
+//this: to pass as argument in the constructor call
+
+class B {
+	TestThis5 obj;
+
+	B(TestThis5 obj) {
+		this.obj = obj;
+	}
+
+	void display() {
+		System.out.println(obj.data);// using data member of A4 class
+	}
+}
+
+public class TestThis5 {
+	int data = 10;
+
+	TestThis5() {
+		B b = new B(this);
+		b.display();
+	}
+
+	public static void main(String args[]) {
+		TestThis5 a = new TestThis5();
+	}
+}

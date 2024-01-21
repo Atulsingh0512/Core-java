@@ -1,0 +1,10 @@
+package objectandclasses;
+
+public class Shepherd{
+	   public Shepherd(){
+	   }
+
+	   public Shepherd(String name){
+	      // This constructor has one parameter, name.
+	   }
+	}

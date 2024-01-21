@@ -1,0 +1,5 @@
+package loginappcokkie;
+
+public class LogoutServlet {
+
+}
